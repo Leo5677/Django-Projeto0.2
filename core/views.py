@@ -3,9 +3,7 @@ from django.urls import reverse_lazy
 from django.contrib import messages
 from .forms import ContatoForm, CursoModelForm
 from .models import Curso
-import io
-from django.http import FileResponse
-from reportlab.pdfgen import canvas
+
 
 # Create your views here.
 
